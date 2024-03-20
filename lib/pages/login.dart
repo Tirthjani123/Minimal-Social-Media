@@ -90,7 +90,7 @@ class _LoginPageState extends State<LoginPage> {
                 ],
               ),
               SizedBox(
-                height: 25,
+                height: 15,
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 10),
@@ -109,17 +109,9 @@ class _LoginPageState extends State<LoginPage> {
                       "Don't have an account?   ",
                       style: TextStyle(fontWeight: FontWeight.w100),
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => SigninPage()));
-                      },
-                      child: Text(
-                        'Register Here',
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    Text(
+                      'Register Here',
+                      style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
