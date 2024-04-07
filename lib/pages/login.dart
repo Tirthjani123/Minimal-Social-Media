@@ -109,9 +109,14 @@ class _LoginPageState extends State<LoginPage> {
                       "Don't have an account?   ",
                       style: TextStyle(fontWeight: FontWeight.w100),
                     ),
-                    Text(
-                      'Register Here',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>SigninPage()));
+                      },
+                      child: Text(
+                        'Register Here',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ],
                 ),
