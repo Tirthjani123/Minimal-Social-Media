@@ -116,7 +116,7 @@ class _SigninPageState extends State<SigninPage> {
                 height: 25,
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: EdgeInsets.symmetric(horizontal: 30),
                 child: InkWell(
                   onTap: registerUser,
                   child: Container(
@@ -125,7 +125,7 @@ class _SigninPageState extends State<SigninPage> {
                       color: Theme.of(context).colorScheme.primary,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(25.0),
+                      padding: const EdgeInsets.all(10.0),
                       child: Center(
                         child: Text(
                           "Sign In",

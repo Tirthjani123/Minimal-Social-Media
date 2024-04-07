@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 15,
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: EdgeInsets.symmetric(horizontal: 30),
                 child: MyButton(
                   text: 'LOGIN',
                   onTap: loginUser,
